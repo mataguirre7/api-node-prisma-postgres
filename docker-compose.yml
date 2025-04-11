@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:bullseye
+    restart: always
+    ports:
+      - 2162:5432
+    environment:
+      POSTGRES_PASSWORD: crudapi
+      POSTGRES_USER: mataguirre
+      POSTGRES_DB: CrudAPI
