@@ -1,8 +1,8 @@
-import PrismaClient from "@prisma/client";
+import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
-const courses = prisma.Course;
+const courses = prisma.course;
 
 export default {
   getList: async () => {

@@ -2,7 +2,7 @@ import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
-const users = prisma.User;
+const users = prisma.user;
 
 export default {
   getList: async () => {
