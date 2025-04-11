@@ -18,4 +18,19 @@ export default {
       });
     }
   },
+  createUser: async (req, res) => {
+    try {
+      let userCreated = await user_service.create(req.body);
+
+      res.status(200).json({
+        status: "success",
+        message: `data successfully created: ${JSON.stringify(userCreated)}`,
+      });
+    } catch (e) {
+      res.status(500).json({
+        status: "error",
+        message: e,
+      });
+    }
+  }
 };

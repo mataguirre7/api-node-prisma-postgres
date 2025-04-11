@@ -30,4 +30,14 @@ export default {
       data,
     });
   },
+  create: async (data) => {
+    return courses.create({
+      data
+    });
+  },
+  createMany: async (data) => {
+    return courses.createMany({
+      data
+    });
+  },
 };

@@ -2,40 +2,40 @@ import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
-const users = prisma.user;
+const enrollments = prisma.enrollment;
 
 export default {
   getList: async () => {
-    return users.findMany();
+    return enrollments.findMany();
   },
   getOne: async (id) => {
-    return users.findOne({
+    return enrollments.findOne({
       where: {
         id,
       },
     });
   },
   delete: async (id) => {
-    return users.delete({
+    return enrollments.delete({
       where: {
         id,
       },
     });
   },
   create: async (data) => {
-    return users.create({
-      data
+    return enrollments.create({
+      data,
     });
   },
   createMany: async (data) => {
-    return users.createMany({
-      data
+    return enrollments.createMany({
+      data,
     });
   },
-  update: async (id, data) => {
-    return users.update({
+  update: async (userId, courseId, data) => {
+    return enrollments.update({
       where: {
-        id,
+        AND: [courseId, userId],
       },
       data,
     });
