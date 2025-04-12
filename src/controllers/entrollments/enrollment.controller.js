@@ -1,4 +1,3 @@
-import { Role } from "@prisma/client";
 import enrollment_service from "../../services/enrollments/enrollment.service.js";
 
 export default {

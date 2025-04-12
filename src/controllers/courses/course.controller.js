@@ -1,4 +1,3 @@
-import { Role } from "@prisma/client";
 import course_service from "../../services/courses/course.service.js";
 
 export default {
