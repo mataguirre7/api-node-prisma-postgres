@@ -84,7 +84,7 @@ CRUD completo utilizando **Node.js**, **Express**, **Prisma ORM** y **SQLite** c
 
 ## 🧑‍💻 Autor
 
-Desarrollado por [Matías Aguirre](https://github.com/tu-usuario)
+Desarrollado por [Matías Aguirre](https://github.com/mataguirre7)
 
 ---
 
