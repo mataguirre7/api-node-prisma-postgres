@@ -53,12 +53,13 @@ CRUD completo utilizando **Node.js**, **Express**, **Prisma ORM** y **SQLite** c
 
 ```
 .
-├── index.js               # Punto de entrada del servidor
+├── src/
+│   └── app.js             # Punto de entrada del servidor
 ├── prisma/
 │   └── schema.prisma      # Definición del modelo de datos
+|   └── dev.db             # Archivo SQLite generado (no subir al repo)
 ├── node_modules/
 ├── package.json
-└── database.db            # Archivo SQLite generado (no subir al repo)
 ```
 
 ---
@@ -72,6 +73,11 @@ CRUD completo utilizando **Node.js**, **Express**, **Prisma ORM** y **SQLite** c
 - `POST /api/users` – Crear un nuevo usuario
 - `PUT /api/users/:id` – Actualizar un usuario existente
 - `DELETE /api/users/:id` – Eliminar un usuario
+- `GET /api/course` – Obtener todos los cursos
+- `GET /api/course/:id` – Obtener un curso por ID
+- `POST /api/course` – Crear un nuevo curso
+- `PUT /api/course/:id` – Actualizar un curso existente
+- `DELETE /api/course/:id` – Eliminar un curso
 
 ---
 
