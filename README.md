@@ -20,7 +20,7 @@ CRUD completo utilizando **Node.js**, **Express**, **Prisma ORM** y **SQLite** c
 
 1. Cloná el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/api-node-prisma-sqlite.git
+   git clone https://github.com/mataguirre7/api-node-prisma-sqlite.git
    cd api-node-prisma-sqlite
    ```
 
