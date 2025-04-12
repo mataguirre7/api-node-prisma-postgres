@@ -73,17 +73,23 @@ CRUD completo utilizando **Node.js**, **Express**, **Prisma ORM** y **SQLite** c
 - `POST /api/users` – Crear un nuevo usuario
 - `PUT /api/users/:id` – Actualizar un usuario existente
 - `DELETE /api/users/:id` – Eliminar un usuario
+- 
 - `GET /api/course` – Obtener todos los cursos
 - `GET /api/course/:id` – Obtener un curso por ID
 - `POST /api/course` – Crear un nuevo curso
 - `PUT /api/course/:id` – Actualizar un curso existente
 - `DELETE /api/course/:id` – Eliminar un curso
+-
+- `GET /api/entrollment` – Obtener todas las inscripciones
+- `GET /api/entrollment/:userId/:courseId` – Obtener una inscripción por ID de usuario y ID del curso
+- `POST /api/entrollment` – Crear una nueva inscripción
+- `DELETE /api/entrollment/:userId/:courseId` – Eliminar una inscripción
 
 ---
 
 ## ⚠️ Notas
 
-- La base de datos se guarda en un archivo local (`database.db`). Render no garantiza persistencia de archivos entre deploys. Usar solo para pruebas o proyectos personales.
+- La base de datos se guarda en un archivo local (`dev.db`). Render no garantiza persistencia de archivos entre deploys. Usar solo para pruebas o proyectos personales.
 - Asegurate de ignorar el archivo `.env` y `database.db` en tu `.gitignore`.
 
 ---
