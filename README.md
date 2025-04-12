@@ -90,7 +90,7 @@ CRUD completo utilizando **Node.js**, **Express**, **Prisma ORM** y **SQLite** c
 ## ⚠️ Notas
 
 - La base de datos se guarda en un archivo local (`dev.db`). Render no garantiza persistencia de archivos entre deploys. Usar solo para pruebas o proyectos personales.
-- Asegurate de ignorar el archivo `.env` y `database.db` en tu `.gitignore`.
+- Asegurate de ignorar el archivo `.env` y `dev.db` en tu `.gitignore`.
 
 ---
 
