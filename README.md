@@ -43,7 +43,7 @@ CRUD completo utilizando **Node.js**, **Express**, **Prisma ORM** y **SQLite** c
 ```json
 "scripts": {
   "dev": "npx prisma migrate dev && npm start",
-  "start": "node index.js"
+  "start": "nodemon ."
 }
 ```
 
