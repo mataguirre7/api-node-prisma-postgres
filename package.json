@@ -1,7 +1,7 @@
 {
-  "name": "api-node-prisma-postgres",
+  "name": "api-node-prisma-sqlite",
   "version": "1.0.0",
-  "description": "CRUD completo con Node, Prisma y Postgres",
+  "description": "CRUD completo con Node, Prisma y SQLite",
   "main": "src/app.js",
   "type": "module",
   "scripts": {
