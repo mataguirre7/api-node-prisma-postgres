@@ -80,10 +80,10 @@ CRUD completo utilizando **Node.js**, **Express**, **Prisma ORM** y **SQLite** c
 - `PUT /api/course/:id` – Actualizar un curso existente
 - `DELETE /api/course/:id` – Eliminar un curso
 -
-- `GET /api/entrollment` – Obtener todas las inscripciones
-- `GET /api/entrollment/:userId/:courseId` – Obtener una inscripción por ID de usuario y ID del curso
-- `POST /api/entrollment` – Crear una nueva inscripción
-- `DELETE /api/entrollment/:userId/:courseId` – Eliminar una inscripción
+- `GET /api/enrollment` – Obtener todas las inscripciones
+- `GET /api/enrollment/:userId/:courseId` – Obtener una inscripción por ID de usuario y ID del curso
+- `POST /api/enrollment` – Crear una nueva inscripción
+- `DELETE /api/enrollment/:userId/:courseId` – Eliminar una inscripción
 
 ---
 
